@@ -9,5 +9,5 @@ let dl = document.querySelector('#dl');
 
 const btnSend = document.querySelector('.btn-send')
 btnSend.addEventListener("click", e =>{
-    document.querySelector('.pInfo').innerText = `ah = ${ah.value} al = ${al.value} bh = ${bh.value} bl = ${bl.value} ch = ${cl.value} dh = ${dl.value}`;
+    document.querySelector('.pInfo').innerText = `Wynik rejestrów:  ah = ${ah.value} al = ${al.value} bh = ${bh.value} bl = ${bl.value} ch = ${ch.value} cl = ${cl.value} dh = ${dh.value} dl = ${dl.value}`;
 });
